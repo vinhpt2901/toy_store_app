@@ -1,8 +1,10 @@
-package com.example.toy_store_app;
+package com.toy_store_app;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.toy_store_app.R;
 
 public class MainActivity extends AppCompatActivity {
 

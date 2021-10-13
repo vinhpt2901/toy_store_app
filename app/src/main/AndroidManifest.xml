@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Toy_Store_App">
         <activity
-            android:name=".MainActivity"
+            android:name="com.toy_store_app.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
