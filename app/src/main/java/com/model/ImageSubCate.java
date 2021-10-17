@@ -13,7 +13,7 @@ public class ImageSubCate implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = SubCategory.class, parentColumns = {"id"}, childColumns = {"subcate_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = SubCategory.class, parentColumns = {"id"}, childColumns = {"subcate_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "subcate_id")
     private int subCateID;
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    tools:context=".SupportActivity">
+
+    <!--    Body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:src="@drawable/logo"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/cauhoithuonggap"
+            android:textColor="#151515"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/buyProductInShopee"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/hoanTien"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/tichXu"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/maVanChuyen"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/viAirpay"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/shopMail"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/sanPhanTrenShopMail"
+            android:textColor="#8a918c"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

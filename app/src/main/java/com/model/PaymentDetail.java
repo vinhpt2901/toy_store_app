@@ -13,7 +13,7 @@ public class PaymentDetail implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = Payment.class, parentColumns = {"id"}, childColumns = {"payment_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Payment.class, parentColumns = {"id"}, childColumns = {"payment_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "payment_id")
     private int paymentID;
 

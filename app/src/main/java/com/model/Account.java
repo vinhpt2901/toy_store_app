@@ -13,11 +13,11 @@ public class Account implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "account_detail_id")
     private int accountDetailID;
 
-//    @ForeignKey(entity = Role.class, parentColumns = {"id"}, childColumns = {"role_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Role.class, parentColumns = {"id"}, childColumns = {"role_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "role_id", defaultValue = "2")
     private int roleID;
 

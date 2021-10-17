@@ -13,7 +13,7 @@ public class ImageAvatar  implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "account_detail_id")
     private int accountDetailID;
 

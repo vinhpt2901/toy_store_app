@@ -13,7 +13,7 @@ public class Image  implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = Product.class, parentColumns = {"id"}, childColumns = {"product_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Product.class, parentColumns = {"id"}, childColumns = {"product_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "product_id")
     private int productID;
 

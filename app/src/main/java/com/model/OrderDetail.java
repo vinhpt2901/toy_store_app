@@ -14,11 +14,11 @@ public class OrderDetail implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = Order.class, parentColumns = {"id"}, childColumns = {"order_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Order.class, parentColumns = {"id"}, childColumns = {"order_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "order_id")
     private int orderID;
 
-//    @ForeignKey(entity = Product.class, parentColumns = {"id"}, childColumns = {"product_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Product.class, parentColumns = {"id"}, childColumns = {"product_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "product_id")
     private int productID;
 

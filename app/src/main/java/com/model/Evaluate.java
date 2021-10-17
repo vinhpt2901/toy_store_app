@@ -13,11 +13,11 @@ public class Evaluate  implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "account_detail_id")
     private int accountDetailID;
 
-//    @ForeignKey(entity = Product.class, parentColumns = {"id"}, childColumns = {"product_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Product.class, parentColumns = {"id"}, childColumns = {"product_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "product_id")
     private int productID;
 

@@ -13,11 +13,11 @@ public class Product implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = SubCategory.class, parentColumns = {"id"}, childColumns = {"sub_cate_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = SubCategory.class, parentColumns = {"id"}, childColumns = {"sub_cate_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "sub_cate_id")
     private int subCateID;
 
-//    @ForeignKey(entity = Brand.class, parentColumns = {"id"}, childColumns = {"brand_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Brand.class, parentColumns = {"id"}, childColumns = {"brand_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "brand_id")
     private int brandID;
 

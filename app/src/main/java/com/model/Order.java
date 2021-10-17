@@ -13,19 +13,19 @@ public class Order  implements Serializable {
     @ColumnInfo
     private int id;
 
-//    @ForeignKey(entity = Payment.class, parentColumns = {"id"}, childColumns = {"payment_detail_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = Payment.class, parentColumns = {"id"}, childColumns = {"payment_detail_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "payment_detail_id")
     private int paymentDetailID;
 
-//    @ForeignKey(entity = StatusOrder.class, parentColumns = {"id"}, childColumns = {"status_order_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = StatusOrder.class, parentColumns = {"id"}, childColumns = {"status_order_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "status_order_id")
     private int statusOrderID;
 
-//    @ForeignKey(entity = CustomInfo.class, parentColumns = {"id"}, childColumns = {"custom_info_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = CustomInfo.class, parentColumns = {"id"}, childColumns = {"custom_info_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "custom_info_id")
     private int customInfoID;
 
-//    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
+    @ForeignKey(entity = AccountDetail.class, parentColumns = {"id"}, childColumns = {"account_detail_id"}, onDelete = ForeignKey.CASCADE)
     @ColumnInfo(name = "account_detail_id")
     private int accountDetailID;
 
